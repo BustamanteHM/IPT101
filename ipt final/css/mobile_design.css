@@ -1,0 +1,141 @@
+/* Responsive Design - Mobile */
+    @media (max-width: 768px) {
+      .hamburger {
+        display: flex;
+      }
+
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: var(--navbar-bg);
+        padding: 1rem 0;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .nav-links li {
+        margin: 0.5rem 0;
+        text-align: center;
+      }
+
+      .hero {
+        padding: 60px 0;
+        min-height: 60vh;
+      }
+
+      .hero-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text h1 {
+        font-size: 2rem;
+      }
+
+      .hero-text p {
+        font-size: 1rem;
+      }
+
+      .hero-image img {
+        max-width: 200px;
+      }
+
+      section {
+        padding: 30px 0;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .skills,
+      .education,
+      .projects {
+        grid-template-columns: 1fr;
+      }
+
+      .card {
+        padding: 15px;
+      }
+
+      form {
+        padding: 15px;
+      }
+
+      form input,
+      form textarea {
+        padding: 8px;
+      }
+
+      form button {
+        padding: 8px 15px;
+      }
+    }
+
+    /* Responsive Design - Tablet */
+    @media (min-width: 601px) and (max-width: 900px) {
+      .container {
+        padding: 0 15px;
+      }
+
+      .hero {
+        padding: 80px 0;
+      }
+
+      .hero-text h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero-text p {
+        font-size: 1.2rem;
+      }
+
+      .hero-image img {
+        max-width: 250px;
+      }
+
+      section {
+        padding: 35px 0;
+      }
+
+      h2 {
+        font-size: 1.8rem;
+      }
+
+      .skills,
+      .education,
+      .projects {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      }
+
+      .card {
+        padding: 18px;
+      }
+    }
+
+    /* Responsive Design - Desktop */
+    @media (min-width: 901px) {
+      .container {
+        padding: 0 20px;
+      }
+
+      .hero-text h1 {
+        font-size: 3.5rem;
+      }
+
+      .hero-text p {
+        font-size: 1.5rem;
+      }
+
+      .hero-image img {
+        max-width: 300px;
+      }
+    }
+
+    

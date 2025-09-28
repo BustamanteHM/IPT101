@@ -1,0 +1,36 @@
+/* Theme Variables */
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #333333;
+      --navbar-bg: #ffffff;
+      --card-bg: #ffffff;
+      --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      --link-color: #0be052;
+      --button-bg: #48be11;
+      --button-text: #ffffff;
+      --input-bg: #ffffff;
+      --input-border: #cccccc;
+      --input-text: #333333;
+      --section-bg-light: #e8f0fe;
+      --section-bg-education: #f0f4f8;
+      --section-bg-projects: #fef3e8;
+      --section-bg-contact: #e8fef3;
+    }
+
+    [data-theme="dark"] {
+      --bg-color: #1a1a1a;
+      --text-color: #ffffff;
+      --navbar-bg: #000000;
+      --card-bg: #2c2c2c;
+      --card-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      --link-color: #19d807;
+      --button-bg: #1cd80b;
+      --button-text: #000000;
+      --input-bg: #333333;
+      --input-border: #555555;
+      --input-text: #ffffff;
+      --section-bg-light: #2a2a2a;
+      --section-bg-education: #2e2e2e;
+      --section-bg-projects: #2a2a2a;
+      --section-bg-contact: #2e2e2e;
+    }

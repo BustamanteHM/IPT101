@@ -1,0 +1,13 @@
+/* Section Styles */
+    section {
+      padding: 40px 0;
+      transition: background-color 0.3s ease;
+    }
+
+    h2 {
+      padding-top: 4%;
+      text-align: center;
+      margin-bottom: 30px;
+      color: var(--text-color);
+      transition: color 0.3s ease;
+    }

@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    /* ...other styles... */
+  }
+  .nav-links.active {
+    display: flex;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
+@media (min-width: 769px) {
+  .nav-links {
+    display: flex !important;
+    /* ...other styles... */
+  }
+  .hamburger {
+    display: none;
+  }
+}

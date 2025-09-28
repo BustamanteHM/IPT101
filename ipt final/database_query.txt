@@ -1,0 +1,26 @@
+
+db_portfolio;
+
+
+CREATE TABLE email (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    subject VARCHAR(150) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    message VARCHAR(150) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+CREATE TABLE admin_users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Insert default admin account
+-- Default login: username = admin, password = admin123
+INSERT INTO admin_users (username, password) 
+VALUES ('admin', SHA2('admin123', 256));
