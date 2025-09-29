@@ -1,0 +1,16 @@
+/* Specific Section Backgrounds */
+    #skills {
+      background: var(--section-bg-light);
+    }
+
+    #education {
+      background: var(--section-bg-education);
+    }
+
+    #projects {
+      background: var(--section-bg-projects);
+    }
+
+    #contact {
+      background: var(--section-bg-contact);
+    }

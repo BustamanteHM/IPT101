@@ -1,0 +1,54 @@
+ /* Hero Section Styles */
+    .hero {
+      background: linear-gradient(135deg, #1dd80c 0%, #4ec908 100%);
+      color: rgb(0, 0, 0);
+      padding: 100px 0;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 80vh;
+      margin-top: 60px;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero-content {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+      gap: 20px;
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+
+    .hero-text h1 {
+      font-size: 3.5rem;
+      margin-bottom: 15px;
+    }
+
+    .hero-text p {
+      font-size: 1.5rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .hero-image {
+      flex: 1;
+      min-width: 300px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-image img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      object-fit: cover;
+    }
